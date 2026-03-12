@@ -1,0 +1,750 @@
+/* style.css */
+
+
+  *{
+            margin: 0%; padding: 0%;
+        }
+
+        li, a,button{
+            font-weight: 500;
+            color: white;
+            text-decoration: none;
+        }
+body {
+    background-attachment: fixed;
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("https://www.artnews.com/wp-content/uploads/2020/04/Ravine_van-Gogh.jpg?w=1024");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+        header{
+            position: sticky;
+            top: 0;
+            background-color: rgba(0, 0, 0, 0.450);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px 10%;
+        }
+        li{
+            list-style: none;
+            display: inline-block;
+            padding: 0px 20px;
+            font-size: 103%;
+        }
+        nav li a{
+            transition: all 0.3s ease 0s;
+        }
+        nav li a:hover{
+            color: rgb(165, 107, 31);
+            text-decoration: underline;
+        }
+         button {
+            padding: 10px 20px;
+            background-color: rgb(131, 195, 231);
+            cursor: pointer;
+            border-radius: 25%;
+           color:black;
+            transition: all 0.3s ease 0s;
+         }
+         button:hover{
+            background-color: rgb(60, 202, 84);
+            font-weight: 700;
+         }
+/*          body{
+            background-image: url("https://images.pexels.com/photos/547114/pexels-photo-547114.jpeg");
+            background-repeat: no-repeat;
+            background-position: center;
+           background-size: cover; */
+        
+h2{
+  color: White;
+  font-family:Papyrus;
+  font-size: 150%;
+}
+#HomeQuote{
+  color: white;
+  text-align: center;
+  font-size: 300%;
+  margin-top: 7%;
+  margin-left:12%;
+  margin-right:12%;
+  gap:10px;
+  font-family:Papyrus;
+  font-weight: 500;
+  background-color: rgba(0, 0, 0, 0.418);
+  padding: 15px;
+  border-radius: 30px;
+}
+
+
+#FirstQuote{
+  color: white;
+  text-align: center;
+  font-size: 220%;
+  margin-top: 7%;
+  margin-left:12%;
+  margin-right:12%;
+  gap:10px;
+  font-family:Georgia;
+   background-color: rgba(0, 0, 0, 0.527);
+   padding: 15px;
+   border-radius: 30px;
+}
+
+#VanGoghImage{
+   display: block;
+  -ms-ime-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  background-color: rgba(0, 0, 0, 0.527);
+  padding: 15px;
+  transition: transform 0.3s ease;
+}
+
+#VanGoghImage:hover {
+  transform: scale(0.9);
+}
+
+#VanGoghImage {
+box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgb(0, 0, 0);
+}
+
+#SecondQuote{
+  color: white;
+  text-align: center;
+  font-size: 220%;
+  margin-top: 5%;
+  margin-left:12%;
+  margin-right:12%;
+  gap:10px;
+  font-family:Georgia;
+   background-color: rgba(0, 0, 0, 0.527);
+   padding: 15px;
+   border-radius: 30px;
+}
+
+#PabloPicasoImage{
+   display: block;
+  -ms-ime-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  background-color: rgba(0, 0, 0, 0.527);
+  padding: 15px;
+  transition: transform 0.3s ease;
+}
+
+#PabloPicasoImage:hover {
+  transform: scale(0.9);
+}
+
+#PabloPicasoImage {
+box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgb(0, 0, 0);
+}
+
+#ThirdQuote{
+  color: white;
+  text-align: center;
+  font-size: 220%;
+  margin-top: 5%;
+  margin-left:12%;
+  margin-right:12%;
+  gap:10px;
+  font-family:Georgia;
+   background-color: rgba(0, 0, 0, 0.527);
+   padding: 15px;
+   border-radius: 30px;
+}
+
+#LeonardoDaVinciImage{
+   display: block;
+  -ms-ime-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  background-color: rgba(0, 0, 0, 0.527);
+  padding: 15px;
+  transition: transform 0.3s ease;
+}
+
+#LeonardoDaVinciImage:hover {
+  transform: scale(0.9);
+}
+
+#LeonardoDaVinciImage {
+box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgb(0, 0, 0);
+}
+
+#FourthQuote{
+  color: white;
+  text-align: center;
+  font-size: 220%;
+  margin-top: 5%;
+  margin-left:12%;
+  margin-right:12%;
+  gap:10px;
+  font-family:Georgia;
+   background-color: rgba(0, 0, 0, 0.527);
+   padding: 15px;
+   border-radius: 30px;
+}
+
+#ClaudeMonetImage{
+   display: block;
+  -ms-ime-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  background-color: rgba(0, 0, 0, 0.527);
+  padding: 15px;
+  transition: transform 0.3s ease;
+}
+
+#ClaudeMonetImage {
+box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgb(0, 0, 0);
+}
+
+#ClaudeMonetImage:hover {
+  transform: scale(0.9);
+}
+
+.parallax-container2{
+    display: flex;
+    flex-direction: column;       
+    justify-content: center;      
+    align-items: center;           
+    flex-wrap: wrap;
+    padding: 6rem 0;
+    background-image: url(https://cdn.britannica.com/10/182610-050-77811599/The-Persistence-of-Memory-canvas-collection-Salvador-1931.jpg);
+    gap: 5em;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#MoreArtists{
+  color: white;
+  text-align: center;
+  font-size: 250%;
+  margin: 0 0 1rem;               
+  gap:10px;
+  font-family:Papyrus;
+  background-color: rgba(0, 0, 0, 0.527);
+  padding: 15px;
+  border-radius: 30px;
+}
+
+#JohannesVermeer{
+  color: white;
+  text-align: center;
+  font-size: 150%;
+  margin-top: 1%;
+  gap:10px;
+  background-color: rgba(0, 0, 0, 0.527);
+  padding: 15px;
+  border-radius: 30px;
+}
+
+
+#FridaKahlo{
+  color: white;
+  text-align: center;
+  font-size: 150%;
+  margin-top: 1px;
+  gap:10px;
+  background-color: rgba(0, 0, 0, 0.527);
+  padding: 15px;
+  border-radius: 30px;
+}
+
+#SalvadorDali{
+  color: white;
+  text-align: center;
+  font-size: 150%;
+  margin-top: 1px;
+  gap:10px;
+  background-color: rgba(0, 0, 0, 0.527);
+  padding: 15px;
+  border-radius: 30px;
+}
+
+#VassilyKandinsky{
+  color: white;
+  text-align: center;
+  font-size: 150%;
+  margin-top: 1px;
+  gap:10px;
+  background-color: rgba(0, 0, 0, 0.527);
+  padding: 15px;
+  border-radius: 30px;
+}
+
+#Michelangelo{
+  color: white;
+  text-align: center;
+  font-size: 150%;
+  margin-top: 1px;
+  gap:10px;
+  background-color: rgba(0, 0, 0, 0.527);
+  padding: 15px;
+  border-radius: 30px;
+}
+
+#SandroBotticelli{
+  color: white;
+  text-align: center;
+  font-size: 150%;
+  margin-top: 1px;
+  gap:10px;
+  background-color: rgba(0, 0, 0, 0.527);
+  padding: 15px;
+  border-radius: 30px;
+}
+
+#GeorgiaOkeeffe{
+  color: white;
+  text-align: center;
+  font-size: 150%;
+  margin-top: 1px;
+  gap:10px;
+  background-color: rgba(0, 0, 0, 0.527);
+  padding: 15px;
+  border-radius: 30px;
+}
+
+#VanGoghNav{
+  position: sticky;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.450);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  font-family: Papyrus;
+  font-size: 120%;
+}
+
+body.vangogh-page {
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://wallup.net/wp-content/uploads/2018/03/23/561145-Vincent_van_Gogh-classic_art-painting.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#VanGoghIntro{
+  color: white;
+  text-align: center;
+  font-size: 200%;
+  margin-top: 7%;
+  margin-left:12%;
+  margin-right:12%;
+  gap:10px;
+  font-family:Georgia;
+   background-color: rgba(0, 0, 0, 0.527);
+   padding: 15px;
+   border-radius: 30px;
+}
+
+#starrynight{
+  display: block;
+  -ms-ime-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  background-color: rgba(0, 0, 0, 0.527);
+  padding: 15px;
+  height: 400px;
+  width: 500px
+}
+
+#starrynight:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+#vangoghstoryp1{
+  color: white;
+  text-align: center;
+  font-size: 200%;
+  margin-top: 2%;
+  margin-left:12%;
+  margin-right:12%;
+  gap:10px;
+  font-family:Georgia;
+   background-color: rgba(0, 0, 0, 0.527);
+   padding: 15px;
+   border-radius: 30px;
+}
+
+#vangoghstoryp2{
+  color: white;
+  text-align: center;
+  font-size: 200%;
+  margin-top: 2%;
+  margin-left:12%;
+  margin-right:12%;
+  gap:10px;
+  font-family:Georgia;
+   background-color: rgba(0, 0, 0, 0.527);
+   padding: 15px;
+   border-radius: 30px;
+}
+
+#vangoghselfportrait{
+  display: block;
+  -ms-ime-align: center;
+  margin-left: auto;
+  margin-right: auto;
+   margin-top: 2%;
+  background-color: rgba(0, 0, 0, 0.527);
+  padding: 15px;
+  height: 500px;
+  width: 400px
+}
+
+#vangoghselfportrait:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+#vangoghvideo{
+  display: block;
+  -ms-ime-align: center;
+  margin-left: auto;
+  margin-right: auto;
+   margin-top: 2%;
+  background-color: rgba(0, 0, 0, 0.527);
+  padding: 15px;
+}
+
+#PabloPicassoNav{
+  position: sticky;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.450);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  font-family: Papyrus;
+  font-size: 120%;
+}
+
+body.picasso-page {
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://th.bing.com/th/id/R.cd83fb0727d53ac853e886893f3abb4d?rik=th%2bqUYURVWFqHQ&pid=ImgRaw&r=0");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#PicassoIntro{
+  color: white;
+  text-align: center;
+  font-size: 200%;
+  margin-top: 7%;
+  margin-left:12%;
+  margin-right:12%;
+  gap:10px;
+  font-family:Georgia;
+   background-color: rgba(0, 0, 0, 0.527);
+   padding: 15px;
+   border-radius: 30px;
+}
+
+#WritingWoman{
+  display: block;
+  -ms-ime-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  background-color: rgba(0, 0, 0, 0.527);
+  padding: 15px;
+  height: 400px;
+  width: 500px
+}
+
+#WritingWoman:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+#pablopicassostoryp1{
+  color: white;
+  text-align: center;
+  font-size: 200%;
+  margin-top: 2%;
+  margin-left:12%;
+  margin-right:12%;
+  gap:10px;
+  font-family:Georgia;
+   background-color: rgba(0, 0, 0, 0.527);
+   padding: 15px;
+   border-radius: 30px;
+}
+
+#pablopicassostoryp2{
+  color: white;
+  text-align: center;
+  font-size: 200%;
+  margin-top: 2%;
+  margin-left:12%;
+  margin-right:12%;
+  gap:10px;
+  font-family:Georgia;
+   background-color: rgba(0, 0, 0, 0.527);
+   padding: 15px;
+   border-radius: 30px;
+}
+
+#pablopicassotheoldguitarist{
+  display: block;
+  -ms-ime-align: center;
+  margin-left: auto;
+  margin-right: auto;
+   margin-top: 2%;
+  background-color: rgba(0, 0, 0, 0.527);
+  padding: 15px;
+  height: 500px;
+  width: 400px
+}
+
+#pablopicassotheoldguitarist:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+#pablopicassovideo{
+  display: block;
+  -ms-ime-align: center;
+  margin-left: auto;
+  margin-right: auto;
+   margin-top: 2%;
+  background-color: rgba(0, 0, 0, 0.527);
+  padding: 15px;
+}
+
+#DaVinciNav{
+  position: sticky;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.450);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  font-family: Papyrus;
+}
+
+body.DaVinci-page{
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://en.bcdn.biz/images/emails_source/3075ca2a-6568-4f7d-8416-25d8acd49ec5.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#DaVinviintro{
+  color: white;
+  text-align: center;
+  font-size: 200%;
+  margin-top: 7%;
+  margin-left:12%;
+  margin-right:12%;
+  gap:10px;
+  font-family:Georgia;
+   background-color: rgba(0, 0, 0, 0.527);
+   padding: 15px;
+   border-radius: 30px;
+}
+
+#monalisa{
+  display: block;
+  -ms-ime-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  background-color: rgba(0, 0, 0, 0.527);
+  padding: 15px;
+  height: 500px;
+  width: 350px
+}
+
+#monalisa:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+
+#DaVinvistoryp1{
+  color: white;
+  text-align: center;
+  font-size: 200%;
+  margin-top: 2%;
+  margin-left:12%;
+  margin-right:12%;
+  gap:10px;
+  font-family:Georgia;
+   background-color: rgba(0, 0, 0, 0.527);
+   padding: 15px;
+   border-radius: 30px;
+}
+
+#DaVinvistoryp2{
+  color: white;
+  text-align: center;
+  font-size: 200%;
+  margin-top: 2%;
+  margin-left:12%;
+  margin-right:12%;
+  gap:10px;
+  font-family:Georgia;
+   background-color: rgba(0, 0, 0, 0.527);
+   padding: 15px;
+   border-radius: 30px;
+}
+
+#ladywithanermine{
+  display: block;
+  -ms-ime-align: center;
+  margin-left: auto;
+  margin-right: auto;
+   margin-top: 2%;
+  background-color: rgba(0, 0, 0, 0.527);
+  padding: 15px;
+  height: 500px;
+  width: 350px
+}
+
+#ladywithanermine:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+#LeonardoDaVincivideo{
+  display: block;
+  -ms-ime-align: center;
+  margin-left: auto;
+  margin-right: auto;
+   margin-top: 2%;
+  background-color: rgba(0, 0, 0, 0.527);
+  padding: 15px;
+}
+
+#MonetNav{
+  position: sticky;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.450);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  font-family: Papyrus;
+}
+
+.Monet-page{
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://uploads2.wikiart.org/images/claude-monet/the-seine-at-argenteuil-1875.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#Monetintro{
+  color: white;
+  text-align: center;
+  font-size: 200%;
+  margin-top: 7%;
+  margin-left:12%;
+  margin-right:12%;
+  gap:10px;
+  font-family:Georgia;
+   background-color: rgba(0, 0, 0, 0.527);
+   padding: 15px;
+   border-radius: 30px;
+}
+
+#WaterLilies{
+  display: block;
+  -ms-ime-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  background-color: rgba(0, 0, 0, 0.527);
+  padding: 15px;
+  height: 400px;
+  width: 500px
+}
+
+#WaterLilies:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+#Monetstoryp1{
+  color: white;
+  text-align: center;
+  font-size: 200%;
+  margin-top: 2%;
+  margin-left:12%;
+  margin-right:12%;
+  gap:10px;
+  font-family:Georgia;
+   background-color: rgba(0, 0, 0, 0.527);
+   padding: 15px;
+   border-radius: 30px;
+}
+
+#Monetstoryp2{
+  color: white;
+  text-align: center;
+  font-size: 200%;
+  margin-top: 2%;
+  margin-left:12%;
+  margin-right:12%;
+  gap:10px;
+  font-family:Georgia;
+   background-color: rgba(0, 0, 0, 0.527);
+   padding: 15px;
+   border-radius: 30px;
+}
+
+#Garden{
+  display: block;
+  -ms-ime-align: center;
+  margin-left: auto;
+  margin-right: auto;
+   margin-top: 2%;
+  background-color: rgba(0, 0, 0, 0.527);
+  padding: 15px;
+  height: 400px;
+  width: 400px
+}
+
+#Garden:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+#claudemonetvideo{
+  display: block;
+  -ms-ime-align: center;
+  margin-left: auto;
+  margin-right: auto;
+   margin-top: 2%;
+  background-color: rgba(0, 0, 0, 0.527);
+  padding: 15px;
+}
